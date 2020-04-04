@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  font-family: 'Open Sans';
+  font-family: 'Arial';
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
@@ -24,7 +24,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background: #0d64b4;
 }
 
 main {
@@ -36,7 +36,7 @@ main {
   position: fixed;
   background-color: var(--bg-primary);
   transition: width 600ms ease;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .navbar-nav {
@@ -85,11 +85,11 @@ main {
 }
 
 .fa-primary {
-  color: #ff7eee;
+  color: #03D8BE;
 }
 
 .fa-secondary {
-  color: #df49a6;
+  color: #03B2D8;
 }
 
 .fa-primary,
@@ -160,7 +160,7 @@ main {
   }
 
   .navbar:hover {
-    width: 16rem;
+    width: 25rem;
   }
 
   .navbar:hover .link-text {
@@ -169,7 +169,7 @@ main {
 
   .navbar:hover .logo svg
   {
-    margin-left: 11rem;
+    margin-left: 22.70rem;
   }
 
   .navbar:hover .logo-text
@@ -178,39 +178,5 @@ main {
   }
 }
 
-.dark {
-  --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
-}
-
-.light {
-  --text-primary: #1f1f1f;
-  --text-secondary: #000000;
-  --bg-primary: #ffffff;
-  --bg-secondary: #e4e4e4;
-}
-
-.solar {
-  --text-primary: #576e75;
-  --text-secondary: #35535c;
-  --bg-primary: #fdf6e3;
-  --bg-secondary: #f5e5b8;
-}
-
 .theme-icon {
   display: none;
-}
-
-.dark #darkIcon {
-  display: block;
-}
-
-.light #lightIcon {
-  display: block;
-}
-
-.solar #solarIcon {
-  display: block;
-}
